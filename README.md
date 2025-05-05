@@ -1,20 +1,43 @@
 # Differential Equations Projects
 
 ## About Me
-I'm a junior at Grinnell college double majoring in Biochemistry and Physics, with a strong interest in computational methods and mathematical modeling. This repository showcases my work in applying programming to solve complex mathematical problems in differential equations.
+I'm a junior at Grinnell College double majoring in Biochemistry and Physics, with a strong interest in computational methods and mathematical modeling. This repository showcases my work in applying programming to solve complex mathematical problems in differential equations.
 
 ## Project Overview
 This repository contains implementations of differential equations concepts using Python and Jupyter notebooks. The projects demonstrate my ability to combine mathematical theory with practical programming skills to create interactive visualizations and solutions.
 
 ## Featured Projects
 
-### 1. Directional Fields Visualization
+### 1. Circadian Rhythm Modeling
+A sophisticated mathematical model of the human circadian rhythm system, focusing on the interaction between melatonin and cortisol hormones. This project demonstrates the application of differential equations to biological systems.
+
+#### Key Features:
+- Implementation of coupled differential equations modeling hormone interactions
+- Analysis of phase relationships between melatonin and cortisol cycles
+- Simulation of external influences (light exposure, stress) on the system
+- Visualization of 24-hour hormone concentration patterns
+- Stability analysis of the biological oscillator
+
+#### Biological Context:
+- Melatonin: Primary sleep hormone, regulated by light exposure
+- Cortisol: Stress hormone with diurnal variation
+- Phase relationships between hormones
+- Feedback mechanisms in the hypothalamic-pituitary-adrenal axis
+
+#### Mathematical Implementation:
+- System of coupled nonlinear differential equations
+- Phase plane analysis
+- Stability analysis of equilibrium points
+- Parameter sensitivity studies
+- Numerical solutions using Python's scientific computing stack
+
+### 2. Directional Fields Visualization
 - Interactive visualization of directional fields for differential equations
 - Implementation of vector field plotting using NumPy and Matplotlib
 - Analysis of solution behavior without explicit solutions
 - Real-time parameter adjustment for dynamic exploration
 
-### 2. Jacobian Matrix Analysis
+### 3. Jacobian Matrix Analysis
 - Implementation of Jacobian matrices for systems of differential equations
 - Stability analysis of equilibrium points
 - Phase plane visualization
@@ -32,6 +55,7 @@ This repository contains implementations of differential equations concepts usin
   - Linear algebra
   - Numerical methods
   - Stability theory
+  - Biological systems modeling
 
 ## Getting Started
 1. Clone this repository
@@ -42,13 +66,15 @@ This repository contains implementations of differential equations concepts usin
 3. Open the Jupyter notebooks to explore the implementations
 
 ## Academic Context
-These projects were developed as part of my studies in differential equations, combining my background in physics and biochemistry with computational methods. The implementations demonstrate practical applications of mathematical concepts in scientific computing.
+These projects were developed as part of my studies in differential equations, combining my background in physics and biochemistry with computational methods. The implementations demonstrate practical applications of mathematical concepts in scientific computing, particularly in biological systems.
 
 ## Future Work
 - Implementation of partial differential equations
 - Integration with biochemical reaction systems
 - Advanced numerical methods for stiff systems
 - Machine learning applications in differential equations
+- Extension of circadian model to include additional hormones
+- Analysis of jet lag and shift work effects on the system
 
 ## Contact
 Feel free to reach out for collaborations or questions about the implementations.
